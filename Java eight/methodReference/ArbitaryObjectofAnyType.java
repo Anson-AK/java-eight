@@ -17,7 +17,8 @@ public class ArbitaryObjectofAnyType {
        Function<String,Integer> l=String::length;
        System.out.println(l.apply("ThamizhNadu"));
        
-      
+      Function<String,String> m=String :: toUpperCase;
+      System.out.println(m.apply("aram"));
        
 	}
 
